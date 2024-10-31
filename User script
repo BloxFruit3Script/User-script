@@ -1,0 +1,36 @@
+// ==UserScript==
+// @name         Triple but pro
+// @homepageURL  https://discord.gg/gFNAH7WNZj
+// @description  Bypasses Delta and Hydrogen with auto-copy functionality
+// @author       Triple
+// @version      22
+// @run-at       document-start
+// @match        https://plato-gateway-static.pages.dev/b
+// @match        https://gateway.platoboost.com/cdn-cgi/trace?url=*
+// @match        https://gateway.platoboost.com/a/8?id=*
+// @match        https://gateway.platoboost.com/a/*?id=*
+// @match        https://gateway.platoboost.com/*
+// @match        https://gateway.platoboost.com/a/2569?id=*
+// @match        https://loot-link.com/s?*
+// @match        https://loot-links.com/s?*
+// @match        https://lootlink.org/s?*
+// @match        https://lootlinks.co/s?*
+// @match        https://lootdest.info/s?*
+// @match        https://lootdest.org/s?*
+// @match        https://lootdest.com/s?*
+// @match        https://links-loot.com/s?*
+// @match        https://linksloot.net/s?*
+// @match        https://*/recaptcha/*
+// @match        https://*.hcaptcha.com/*hcaptcha-challenge*
+// @match        https://*.hcaptcha.com/*checkbox*
+// @match        https://*.hcaptcha.com/*captcha*
+// @grant        GM_xmlhttpRequest
+// @grant        GM_setClipboard
+// @grant        GM_notification
+// @grant        GM_openInTab
+// @connect      api-gateway.platoboost.com
+// @connect      raw.githubusercontent.com
+// @icon         https://triple-script-bypasser.vercel.app/
+// require https://raw.githubusercontent.com/BloxFruit3Script/User-script/main/Main.js
+// @namespace https://greasyfork.org/users/1370932
+// ==/UserScript==
